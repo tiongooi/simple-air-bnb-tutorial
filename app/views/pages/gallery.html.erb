@@ -1,0 +1,15 @@
+<h1 class="header">GALLERY</h1>
+
+
+<div class="container">
+        <% @images.each do |array|%>
+    <div class="box">
+       <img src ='<%=array[0]%>'>
+       <p><%=array[1]%></p>
+    </div>
+        <% end %>
+</div>
+
+<% @items.each do |x| %>
+<%= x %>
+<% end %>
